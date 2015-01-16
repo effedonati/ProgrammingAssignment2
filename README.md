@@ -1,4 +1,6 @@
-## R programmin course: Assignment 2: Caching the Inverse of a Matrix
+## R programmin course: Assignment 2
+
+###Caching the Inverse of a Matrix
 
 Matrix inversion is usually a costly computation and there may be some
 benefit to caching the inverse of a matrix rather than computing it
@@ -12,4 +14,5 @@ cache the inverse of a matrix:
     "matrix" returned by `makeCacheMatrix` above. If the inverse has
     already been calculated (and the matrix has not changed), then
     `cacheSolve` should retrieve the inverse from the cache.
+
 This assignment will be graded via peer assessment.
