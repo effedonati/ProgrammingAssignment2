@@ -31,8 +31,8 @@ makeCacheMatrix <- function(x = matrix()) {
 ## cacheSolve: calculate the inverse of a special matrix object
 ##             or (if exist) return the cached inverse 
 ## usage: 
-##        cacheSolve(m)   
-## where m is the special matrix object created with makeCacheMatrix
+##        cacheSolve(x)   
+## where x is the special matrix object created with makeCacheMatrix
 ## when the inverse is cached the function output a message
 
 cacheSolve <- function(x, ...) {
